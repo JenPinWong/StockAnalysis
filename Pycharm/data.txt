@@ -1,0 +1,1 @@
+{"Name": "MANAGEPAY SYSTEMS BERHAD", "Sector": "TECHNOLOGY ", "Code": "MPAY (0156)", "Market": "ACE", "Number": "0156"}

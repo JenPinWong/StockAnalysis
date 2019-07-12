@@ -1,0 +1,212 @@
+
+Company	Shariah	Sector	Market Cap	Last Price	PE	DY	ROE
+AIRPORT (5014)MAIN
+
+MALAYSIA AIRPORTS HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+14.601b	8.80	33.78	1.59	4.69
+ANCOMLB (0048)ACE
+
+ANCOM LOGISTICS BERHAD
+	
+Transportation & Logistics Services
+33.13m	0.07	-	0.00	-3.60
+BHIC (8133)MAIN
+
+BOUSTEAD HEAVY INDUSTRIES CORPORATION BHD
+	
+Transportation Equipment
+320.51m	1.29	-	1.16	-51.24
+BIPORT (5032)MAIN
+
+BINTULU PORT HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+2.153b	4.68	14.32	2.99	11.78
+CHGP (7187)MAIN
+
+CHIN HIN GROUP PROPERTY BERHAD
+	
+Transportation Equipment
+90.62m	0.31	26.52	0.00	2.88
+CJCEN (7117)MAIN
+
+CJ CENTURY LOGISTICS HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+165.58m	0.42	30.88	1.79	1.66
+COMPLET (5136)MAIN
+
+COMPLETE LOGISTIC SERVICES BERHAD
+	
+Transportation & Logistics Services
+100.33m	0.80	9.39	0.00	6.98
+EATECH (5259)MAIN
+
+E.A.TECHNIQUE (M) BERHAD
+	
+Transportation & Logistics Services
+231.84m	0.46	3.50	0.00	27.94
+FREIGHT (7210)MAIN
+
+FREIGHT MANAGEMENT HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+168.93m	0.61	10.12	8.26	5.75
+GDEX (0078)MAIN
+
+GD EXPRESS CARRIER BERHAD
+	
+Transportation & Logistics Services
+1.664b	0.30	56.73	0.68	5.78
+GUNUNG (7676)MAIN
+
+GUNUNG CAPITAL BERHAD
+	
+Transportation & Logistics Services
+67.31m	0.29	-	0.00	-4.18
+HARBOUR (2062)MAIN
+
+HARBOUR-LINK GROUP BERHAD
+	
+Transportation & Logistics Services
+262.26m	0.66	7.82	1.53	8.46
+HUBLINE (7013)MAIN
+
+HUBLINE BERHAD
+	
+Transportation & Logistics Services
+171.86m	0.05	-	0.00	-2.80
+ILB (5614)MAIN
+
+INTEGRATED LOGISTICS BHD
+	
+Transportation & Logistics Services
+72.16m	0.37	-	0.00	-50.61
+LITRAK (6645)MAIN
+
+LINGKARAN TRANS KOTA HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+2.591b	4.90	10.97	5.10	25.34
+M&G (5078)MAIN
+
+MARINE & GENERAL BERHAD
+	
+Transportation & Logistics Services
+54.29m	0.08	-	0.00	-
+MAYBULK (5077)MAIN
+
+MALAYSIAN BULK CARRIERS BERHAD
+	
+Transportation & Logistics Services
+580.00m	0.58	2.17	0.00	70.18
+MISC (3816)MAIN
+
+MISC BERHAD
+	
+Transportation & Logistics Services
+32.496b	7.28	21.50	4.12	4.35
+MMCCORP (2194)MAIN
+
+MMC CORPORATION BERHAD
+	
+Transportation & Logistics Services
+3.593b	1.18	15.47	3.39	2.55
+NATWIDE (9806)MAIN
+
+NATIONWIDE EXPRESS HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+28.34m	0.23	-	0.00	-0.49
+PDZ (6254)MAIN
+
+PDZ HOLDINGS BHD
+	
+Transportation & Logistics Services
+20.46m	0.03	-	0.00	-21.50
+POS (4634)MAIN
+
+POS MALAYSIA BERHAD
+	
+Transportation & Logistics Services
+1.519b	1.94	-	4.12	-9.67
+PRKCORP (8346)MAIN
+
+PERAK CORPORATION BERHAD
+	
+Transportation & Logistics Services
+35.00m	0.35	-	0.00	-76.68
+SEALINK (5145)MAIN
+
+SEALINK INTERNATIONAL BERHAD
+	
+Transportation Equipment
+92.50m	0.19	-	0.00	-5.10
+SEEHUP (7053)MAIN
+
+SEE HUP CONSOLIDATED BERHAD
+	
+Transportation & Logistics Services
+68.36m	0.85	-	2.12	-4.29
+STRAITS (0080)ACE
+
+STRAITS INTER LOGISTICS BERHAD
+	
+Transportation & Logistics Services
+139.89m	0.22	29.45	0.00	4.48
+SURIA (6521)MAIN
+
+SURIA CAPITAL HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+463.40m	1.34	8.52	4.48	4.97
+SYSCORP (5173)MAIN
+
+SHIN YANG SHIPPING CORPORATION BERHAD
+	
+Transportation & Logistics Services
+354.00m	0.30	-	0.00	-1.29
+TAS (5149)MAIN
+
+TAS OFFSHORE BERHAD
+	
+Transportation Equipment
+46.80m	0.26	27.37	0.00	1.05
+TASCO (5140)MAIN
+
+TASCO BERHAD
+	
+Transportation & Logistics Services
+248.00m	1.24	18.99	3.63	3.51
+TNLOGIS (8397)MAIN
+
+TIONG NAM LOGISTICS HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+225.78m	0.49	-	0.00	-0.30
+TOCEAN (7218)MAIN
+
+TRANSOCEAN HOLDINGS BHD
+	
+Transportation & Logistics Services
+20.91m	0.51	170.00	0.00	0.29
+TRIMODE (0199)ACE
+
+TRI-MODE SYSTEM (M) BERHAD
+	
+Transportation & Logistics Services
+59.76m	0.36	29.75	2.78	2.88
+WPRTS (5246)MAIN
+
+WESTPORTS HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+13.606b	3.99	24.75	2.94	23.50
+XINHWA (5267)MAIN
+
+XIN HWA HOLDINGS BERHAD
+	
+Transportation & Logistics Services
+111.24m	0.52	66.88	1.94	1.13

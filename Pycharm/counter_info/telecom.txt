@@ -1,0 +1,206 @@
+
+Company	Shariah	Sector	Market Cap	Last Price	PE	DY	ROE
+AMEDIA (0159)MAIN
+
+ASIA MEDIA GROUP BERHAD
+	
+Media
+32.33m	0.14	-	0.00	-14.65
+AMTEL (7031)MAIN
+
+AMTEL HOLDINGS BERHAD
+	
+Telecommunications Equipment
+36.31m	0.67	19.14	0.00	4.13
+ASTRO (6399)MAIN
+
+ASTRO MALAYSIA HOLDINGS BERHAD
+	
+Media
+7.456b	1.43	16.05	6.29	66.99
+AXIATA (6888)MAIN
+
+AXIATA GROUP BERHAD
+	
+Telecommunications Service Providers
+47.286b	5.18	-	1.83	-24.61
+BINACOM (0195)ACE
+
+BINASAT COMMUNICATIONS BERHAD
+	
+Telecommunications Service Providers
+81.90m	0.32	10.00	3.17	10.86
+BJMEDIA (6025)MAIN
+
+BERJAYA MEDIA BERHAD
+	
+Media
+37.61m	0.16	-	0.00	-
+DIGI (6947)MAIN
+
+DIGI.COM BERHAD
+	
+Telecommunications Service Providers
+39.264b	5.05	26.25	3.88	240.50
+ECOHLDS (0059)MAIN
+
+ECOBUILT HOLDINGS BERHAD
+	
+Telecommunications Service Providers
+34.17m	0.21	-	0.00	-7.04
+GPACKET (0082)MAIN
+
+GREEN PACKET BERHAD
+	
+Telecommunications Service Providers
+345.39m	0.38	-	0.00	-47.41
+INNITY (0147)ACE
+
+INNITY CORPORATION BERHAD
+	
+Media
+65.38m	0.47	44.76	0.00	4.38
+M3TECH (0017)ACE
+
+M3 TECHNOLOGIES (ASIA) BERHAD
+	
+Telecommunications Service Providers
+29.34m	0.05	-	0.00	-
+MAXIS (6012)MAIN
+
+MAXIS BERHAD
+	
+Telecommunications Service Providers
+44.968b	5.75	27.00	3.48	23.41
+MEDIA (4502)MAIN
+
+MEDIA PRIMA BERHAD
+	
+Media
+526.87m	0.48	13.16	0.00	5.42
+MEDIAC (5090)MAIN
+
+MEDIA CHINESE INTERNATIONAL LIMITED
+	
+Media
+312.14m	0.19	-	6.11	-6.72
+MNC (0103)ACE
+
+M N C WIRELESS BERHAD
+	
+Telecommunications Equipment
+28.70m	0.06	-	0.00	-
+MTOUCHE (0092)ACE
+
+MTOUCHE TECHNOLOGY BERHAD
+	
+Telecommunications Equipment
+30.51m	0.06	-	0.00	-38.40
+MYKRIS (03010)LEAP
+
+MYKRIS INTERNATIONAL BERHAD
+	
+Telecommunications Service Providers
+105.00m	0.35	-	5.71	-
+NEXGRAM (0096)ACE
+
+NEXGRAM HOLDINGS BERHAD
+	
+Telecommunications Equipment
+41.42m	0.02	-	0.00	-0.35
+OCK (0172)MAIN
+
+OCK GROUP BERHAD
+	
+Telecommunications Service Providers
+479.31m	0.55	19.78	0.00	5.67
+OPCOM (0035)ACE
+
+OPCOM HOLDINGS BERHAD
+	
+Telecommunications Equipment
+83.85m	0.52	179.31	2.40	0.53
+PPG (7190)MAIN
+
+PELANGI PUBLISHING GROUP BHD.
+	
+Media
+35.02m	0.35	13.41	1.43	2.45
+PRIVA (0123)ACE
+
+PRIVASIA TECHNOLOGY BERHAD
+	
+Telecommunications Equipment
+36.28m	0.07	-	0.00	-6.92
+PUC (0007)ACE
+
+PUC BERHAD
+	
+Media
+183.42m	0.09	23.61	0.00	3.05
+REDTONE (0032)ACE
+
+REDTONE INTERNATIONAL BERHAD
+	
+Telecommunications Service Providers
+303.43m	0.40	-	0.00	-
+REV (0173)ACE
+
+REV ASIA BERHAD
+	
+Media
+26.93m	0.20	-	0.00	-6.80
+SASBADI (5252)MAIN
+
+SASBADI HOLDINGS BERHAD
+	
+Media
+83.82m	0.20	133.33	0.00	0.39
+SEDANIA (0178)ACE
+
+SEDANIA INNOVATOR BERHAD
+	
+Telecommunications Equipment
+40.98m	0.17	-	0.00	-13.11
+SJC (9431)MAIN
+
+SENI JAYA CORPORATION BERHAD
+	
+Media
+20.87m	0.52	-	0.00	-2.45
+SRIDGE (0129)ACE
+
+SILVER RIDGE HOLDINGS BHD
+	
+Telecommunications Equipment
+31.58m	0.23	-	0.00	-
+STAR (6084)MAIN
+
+STAR MEDIA GROUP BERHAD
+	
+Media
+476.37m	0.65	-	4.65	-0.31
+TIMECOM (5031)MAIN
+
+TIME DOTCOM BERHAD
+	
+Telecommunications Service Providers
+5.277b	9.04	18.27	2.27	11.67
+TM (4863)MAIN
+
+TELEKOM MALAYSIA BERHAD
+	
+Telecommunications Service Providers
+16.648b	4.43	54.69	0.45	4.35
+UTUSAN (5754)MAIN
+
+UTUSAN MELAYU (MALAYSIA) BERHAD
+	
+Media
+13.29m	0.12	-	0.00	-
+XOX (0165)ACE
+
+XOX BHD
+	
+Telecommunications Service Providers
+60.08m	0.06	-	0.00	-4.73
