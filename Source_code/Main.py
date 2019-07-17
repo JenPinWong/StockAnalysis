@@ -1,28 +1,28 @@
-from Pycharm.Counter import Counter
-from Pycharm.HTTPResponse import HTTPRequest
-from bs4 import BeautifulSoup
-from Pycharm.Filter import Filter
-from Pycharm.Database import Database
+from Source_code.Counter import Counter
+from Source_code.HTTPResponse import HTTPRequest
+from Source_code.Filter import Filter
+from Source_code.Database import Database
 
 import time
 
 URL = "https://www.malaysiastock.biz/Listed-Companies.aspx?type=S&s1=17"
 
 
-TECHNOLOGY = "counter_info/technology.txt"
-HEALTHCARE = "counter_info/healthcare.txt"
-FINANCIAL = "counter_info/financial.txt"
-PLANTATION = "counter_info/plantation.txt"
-PROPERTY = "counter_info/property.txt"
-TELECOM = "counter_info/telecom.txt"
-LOGISTICS = "counter_info/logistics.txt"
+TECHNOLOGY = "../Counter_info/technology.txt"
+HEALTHCARE = "../Counter_info/healthcare.txt"
+FINANCIAL = "../Counter_info/financial.txt"
+PLANTATION = "../Counter_info/plantation.txt"
+PROPERTY = "../Counter_info/property.txt"
+TELECOM = "../Counter_info/telecom.txt"
+LOGISTICS = "../Counter_info/logistics.txt"
+ENERGY = "../Counter_info/energy.txt"
+REALESTATE = "../Counter_info/realestate.txt"
+GAS = "../Counter_info/gas.txt"
+
 
 class Main:
     def __init__(self):
         self.counter_array = []
-        # self.response = self.get_page()
-        # self.page_content = BeautifulSoup(self.response.content, "html.parser")
-        # print(self.page_content)
 
     # Gets the page of a URL
     @staticmethod
@@ -55,22 +55,36 @@ class Main:
         for code in counter_codes:
             time.sleep(1.5)
             counter = Counter(code)
+            counter.process_company_info()
+            counter.process_financial_info()
             merged_data = {**counter.get_company_info(), **counter.get_company_financial()}
             counter_data.append(merged_data)
+
+        return counter_data
+
+    def get_price_data(self, filename):
+        counter_data = []
+        counter_codes = self.get_counters(filename)
+        for code in counter_codes:
+            time.sleep(1.5)
+            counter = Counter(code)
+            counter.process_price_info()
+            price_data = counter.get_price_info()
+            counter_data.append(price_data)
 
         return counter_data
 
 
 if __name__ == "__main__":
     new = Main()
-    sectors = [PROPERTY, TELECOM, LOGISTICS]
+    sectors = [FINANCIAL]
 
     start = time.time()
     counter_count = 0
     for sector in sectors:
-        data = new.get_all_data(sector)
+        data = new.get_price_data(sector)
         counter_count += len(data)
-        Database.write_to_database("Counter_database.csv", data)
+        Database.write_to_database("../Data/price_database.csv", data)
 
     end = time.time()
     print("Total time taken: {}".format(end - start))

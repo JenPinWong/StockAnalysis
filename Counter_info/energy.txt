@@ -1,0 +1,192 @@
+ALAM (5115)MAIN
+
+ALAM MARITIM RESOURCES BERHAD
+	
+Energy Infrastructure, Equipment & Services
+89.88m	0.10	-	0.00	-41.26
+ARMADA (5210)MAIN
+
+BUMI ARMADA BERHAD
+	
+Energy Infrastructure, Equipment & Services
+1.352b	0.23	-	0.00	-68.33
+BARAKAH (7251)MAIN
+
+BARAKAH OFFSHORE PETROLEUM BERHAD
+	
+Energy Infrastructure, Equipment & Services
+50.15m	0.06	-	0.00	-
+CARIMIN (5257)MAIN
+
+CARIMIN PETROLEUM BERHAD
+	
+Energy Infrastructure, Equipment & Services
+209.32m	0.90	66.30	1.56	2.08
+COASTAL (5071)MAIN
+
+COASTAL CONTRACTS BHD
+	
+Energy Infrastructure, Equipment & Services
+499.98m	0.94	-	0.00	-44.84
+DAYA (0091)MAIN
+
+DAYA MATERIALS BERHAD
+	
+Energy Infrastructure, Equipment & Services
+30.64m	0.02	-	0.00	-
+DAYANG (5141)MAIN
+
+DAYANG ENTERPRISE HOLDINGS BERHAD
+	
+Energy Infrastructure, Equipment & Services
+1.351b	1.40	7.45	0.00	16.33
+DELEUM (5132)MAIN
+
+DELEUM BERHAD
+	
+Energy Infrastructure, Equipment & Services
+397.54m	0.99	13.90	3.54	8.79
+DIALOG (7277)MAIN
+
+DIALOG GROUP BERHAD
+	
+Energy Infrastructure, Equipment & Services
+19.069b	3.38	37.39	0.95	13.59
+HANDAL (7253)MAIN
+
+HANDAL RESOURCES BERHAD
+	
+Energy Infrastructure, Equipment & Services
+73.03m	0.42	-	0.00	-
+HENGYUAN (4324)MAIN
+
+HENGYUAN REFINING COMPANY BERHAD
+	
+Oil & Gas Producers
+1.551b	5.17	-	0.00	-1.74
+HIBISCS (5199)MAIN
+
+HIBISCUS PETROLEUM BERHAD
+	
+Oil & Gas Producers
+1.684b	1.06	5.54	0.00	25.18
+HUAAN (2739)MAIN
+
+SINO HUA-AN INTERNATIONAL BERHAD
+	
+Other Energy Resources
+202.02m	0.18	10.17	0.00	5.21
+ICON (5255)MAIN
+
+ICON OFFSHORE BERHAD
+	
+Energy Infrastructure, Equipment & Services
+100.06m	0.09	-	0.00	-932.25
+KNM (7164)MAIN
+
+KNM GROUP BERHAD
+	
+Other Energy Resources
+950.47m	0.37	-	0.00	-43.60
+MHB (5186)MAIN
+
+MALAYSIA MARINE AND HEAVY ENGINEERING HOLDINGS BERHAD
+	
+Energy Infrastructure, Equipment & Services
+1.216b	0.76	-	0.00	-5.33
+PENERGY (5133)MAIN
+
+PETRA ENERGY BERHAD
+	
+Energy Infrastructure, Equipment & Services
+254.18m	0.79	-	0.00	-6.01
+PERDANA (7108)MAIN
+
+PERDANA PETROLEUM BERHAD
+	
+Energy Infrastructure, Equipment & Services
+276.36m	0.36	-	0.00	-1.74
+PERISAI (0047)MAIN
+
+PERISAI PETROLEUM TEKNOLOGI BHD
+	
+Energy Infrastructure, Equipment & Services
+6.30m	0.01	-	0.00	-
+PETRONM (3042)MAIN
+
+PETRON MALAYSIA REFINING & MARKETING BHD
+	
+Oil & Gas Producers
+1.639b	6.07	7.81	3.29	12.17
+REACH (5256)MAIN
+
+REACH ENERGY BERHAD
+	
+Oil & Gas Producers
+202.84m	0.19	-	0.00	-4.36
+SAPNRG (5218)MAIN
+
+SAPURA ENERGY BERHAD
+	
+Energy Infrastructure, Equipment & Services
+4.794b	0.30	20.41	1.67	1.69
+SCOMI (7158)MAIN
+
+SCOMI GROUP BERHAD
+	
+Energy Infrastructure, Equipment & Services
+87.51m	0.08	-	0.00	-
+SCOMIES (7045)MAIN
+
+SCOMI ENERGY SERVICES BHD
+	
+Energy Infrastructure, Equipment & Services
+234.18m	0.10	-	0.00	-
+SERBADK (5279)MAIN
+
+SERBA DINAMIK HOLDINGS BERHAD
+	
+Energy Infrastructure, Equipment & Services
+6.080b	4.14	14.92	1.93	18.87
+SUMATEC (1201)MAIN
+
+SUMATEC RESOURCES BERHAD
+	
+Oil & Gas Producers
+106.32m	0.03	-	0.00	-1.10
+T7GLOBAL (7228)MAIN
+
+T7 GLOBAL BERHAD
+	
+Energy Infrastructure, Equipment & Services
+245.77m	0.49	41.18	0.00	3.40
+THHEAVY (7206)MAIN
+
+TH HEAVY ENGINEERING BERHAD
+	
+Energy Infrastructure, Equipment & Services
+67.28m	0.06	4.58	0.00	26.20
+UZMA (7250)MAIN
+
+UZMA BERHAD
+	
+Energy Infrastructure, Equipment & Services
+220.82m	0.69	-	0.00	-
+VELESTO (5243)MAIN
+
+VELESTO ENERGY BERHAD
+	
+Energy Infrastructure, Equipment & Services
+2.506b	0.31	-	0.00	-1.66
+WASEONG (5142)MAIN
+
+WAH SEONG CORPORATION BERHAD
+	
+Energy Infrastructure, Equipment & Services
+565.67m	0.73	10.15	0.00	5.66
+YINSON (7293)MAIN
+
+YINSON HOLDINGS BERHAD
+	
+Energy Infrastructure, Equipment & Services
+7.852b	7.18	34.50	0.84	12.69

@@ -1,7 +1,39 @@
 from bs4 import BeautifulSoup
+import datetime
+from Source_code.HTTPResponse import HTTPRequest
 
-from Pycharm.HTTPResponse import HTTPRequest
 
+class Price:
+    def __init__(self):
+        self.time = datetime.datetime.now()
+        self.code = ""
+        self.current_price = ""
+        self.high = ""
+        self.low = ""
+        self.volume = ""
+        self.price_dict = None
+
+
+    def set_attribute(self, attr):
+        self.code = attr.get("Code")
+        self.current_price = attr.get("Price")
+        self.high = attr.get("High")
+        self.low = attr.get("Low")
+        self.volume = attr.get("Volume")
+        self.price_dict = attr
+
+
+    def __repr__(self):
+        return "Code   : {}\n" \
+               "Price  : {}\n" \
+               "High   : {}\n" \
+               "Low    : {}\n" \
+               "Volume : {}\n" \
+               "Time   : {}\n" \
+                .format(self.code, self.current_price, self.high, self.low, self.volume, self.time)
+
+    def get_price_info(self):
+        return self.price_dict
 
 class Company:
     """
@@ -72,11 +104,11 @@ class Counter:
     def __init__(self, counter_number):
         self.company = Company()
         self.financial = Financial()
+        self.price = Price()
         self.counter_number = counter_number
         self.response = self.get_page()
         self.page_content = BeautifulSoup(self.response.content, "html.parser")  # Creates BeautifulSoup Object
-        self.process_counter()
-        self.process_financial()
+
 
     # Get the page of the URL
     def get_page(self):
@@ -85,10 +117,8 @@ class Counter:
         return response
 
 
-
-
     # Extracts information of a company from page
-    def process_counter(self):
+    def process_company_info(self):
         company_info = dict()
 
         company_name = self.page_content.find(id="ctl13_lbCorporateName").text   # Finds company name
@@ -107,7 +137,7 @@ class Counter:
 
         self.company.set_attribute(company_info)
 
-    def process_financial(self):
+    def process_financial_info(self):
         financial_info = dict()
 
         market_cap = self.page_content.find(id="MainContent_lbFinancialInfo_Capital").text
@@ -128,28 +158,59 @@ class Counter:
         self.financial.set_attribute(financial_info)
 
 
+    def process_price_info(self):
+        price_info = dict()
+
+        company_name = self.page_content.find(id="ctl13_lbSymbolCode").text
+        price_info.update({"Code": company_name[2:].upper()})
+
+        price = self.page_content.find(id="MainContent_lbQuoteLast").text
+        price_info.update({"Price": price})
+
+        day_range = self.page_content.find(id="MainContent_lbDayRange").text.split("-")
+        high = day_range[0]
+        price_info.update({"High": high})
+
+        low = day_range[1].replace(" ", "")
+        price_info.update({"Low": low})
+
+        volume = self.page_content.find(id="MainContent_lbQouteVol").text.replace(",", "")
+        price_info.update({"Volume": int(volume)/10000})
+
+        self.price.set_attribute(price_info)
+
     # Prints Company information
     def print_company_info(self):
         print("Company Info")
         print(self.company)
-
 
     # Prints Counter Financial information
     def print_financial_info(self):
         print("Financial Info")
         print(self.financial)
 
+
+    def print_price_info(self):
+        print("Price Info")
+        print(self.price)
+
     def get_company_info(self):
         return self.company.get_company_info()
 
+    def get_price_info(self):
+        return self.price.get_price_info()
 
     def get_company_financial(self):
         return self.financial.get_financial_info()
 
 if __name__ == "__main__":
-    print("\n")
+    # print("\n")
     new_counter = Counter("0156")
+    new_counter.process_company_info()
     new_counter.print_company_info()
-    new_counter.print_financial_info()
-    print(new_counter.get_company_info())
-    print(new_counter.get_company_financial())
+    new_counter.process_price_info()
+    new_counter.print_price_info()
+    # new_counter.print_company_info()
+    # new_counter.print_financial_info()
+    # print(new_counter.get_company_info())
+    # print(new_counter.get_company_financial())

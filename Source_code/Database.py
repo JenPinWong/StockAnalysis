@@ -1,7 +1,7 @@
 import csv
 import os
 
-from Pycharm.Counter import Counter
+from Source_code.Counter import Counter
 
 
 class Database:
@@ -20,9 +20,11 @@ class Database:
                     counter_database_writer.writerows(data)
 
                 csv_file.close()
+
         except IOError:
             print("Fail to write to database")
 
+        print("Successfully write to {}".format(filename))
 
 
 
@@ -53,6 +55,6 @@ if __name__ == "__main__":
     new_counter2 = Counter("3441")
     list.append(new_counter.get_company_info())
     list.append(new_counter2.get_company_info())
-    # print(list)
-    Database.write_to_database("counter_database.csv", list)
+
+    Database.write_to_database("Data/counter_database.csv", list)
 
