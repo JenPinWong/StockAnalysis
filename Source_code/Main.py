@@ -1,13 +1,10 @@
 from Source_code.Counter import Counter
-from Source_code.HTTPResponse import HTTPRequest
 from Source_code.Filter import Filter
 from Source_code.Database import Database
 
 import time
 
-URL = "https://www.malaysiastock.biz/Listed-Companies.aspx?type=S&s1=17"
-
-
+# Location for files storing data of counters for each sectors (Files are stored in CounterInfo/)
 TECHNOLOGY = "../Counter_info/technology.txt"
 HEALTHCARE = "../Counter_info/healthcare.txt"
 FINANCIAL = "../Counter_info/financial.txt"
@@ -19,73 +16,115 @@ ENERGY = "../Counter_info/energy.txt"
 REALESTATE = "../Counter_info/realestate.txt"
 GAS = "../Counter_info/gas.txt"
 
+# Constants
+SHARE_PRICE = "share_price"
+COUNTER_INFO = "counter_info"
+REQUEST_INTERVAL = 1
+
 
 class Main:
-    def __init__(self):
-        self.counter_array = []
-
-    # Gets the page of a URL
-    @staticmethod
-    def get_page():
-        http_request = HTTPRequest(URL)
-        response = http_request.get_response()
-        return response
-
+    """
+    Author: Jen Pin Wong
+    A Main Class that will harvest data from a stock website (malaysiastock.biz)
+    Counters harvested are those stored in a file
+    Returns data harvested in a form of dictionary or prints the data
+    """
     # Filters a file to get only the code (number) of each counter
     @staticmethod
-    def get_counters(filename):
+    def filter_counters(filename):
         counters_code = Filter(filename)
         counters = counters_code.filter_counters()
         return counters
 
     # Prints all information (Company and financial info) of a counter
-    def print_all_data(self, filename):
-        counter_codes = self.get_counters(filename)
+    def print_all_data(self, filename, data_type):
+        counter_codes = self.filter_counters(filename)
         for code in counter_codes:
+            # Load each counter with 1.5 second to not overload web server
+            time.sleep(REQUEST_INTERVAL)
+
             counter = Counter(code)
-            counter.print_company_info()
-            counter.print_financial_info()
+
+            # Harvest Counter share price if data requested == share price
+            if data_type == SHARE_PRICE:
+                # Process Data
+                counter.process_price_info()
+
+                # Print Data
+                counter.print_price_info()
+
+            # Harvest Counter Info if data requested == counter info
+            elif data_type == COUNTER_INFO:
+                # Process Data
+                counter.process_company_info()
+                counter.process_financial_info()
+
+                # Print Data
+                counter.print_company_info()
+                counter.print_financial_info()
 
         print("{} counters found".format(len(counter_codes)))
 
     # Gets all data of a company in a dictionary format
-    def get_all_data(self, filename):
+    def get_all_data(self, filename, data_type):
+        # Get all codes of counters from given file
+        counter_codes = self.filter_counters(filename)
         counter_data = []
-        counter_codes = self.get_counters(filename)
+
         for code in counter_codes:
-            time.sleep(1.5)
+            # Load each counter with 1.5 second to not overload web server
+            time.sleep(REQUEST_INTERVAL)
+
+            # Initialize counter
             counter = Counter(code)
-            counter.process_company_info()
-            counter.process_financial_info()
-            merged_data = {**counter.get_company_info(), **counter.get_company_financial()}
-            counter_data.append(merged_data)
+
+            # Harvest Counter share price if data requested == share price
+            if data_type == SHARE_PRICE:
+                # Prepare Data
+                counter.process_price_info()
+
+                # Hash Table of share price data
+                price_data = counter.get_price_info()
+
+                counter_data.append(price_data)
+
+            # Harvest Counter Info if data requested == counter info
+            elif data_type == COUNTER_INFO:
+                # Prepare Data
+                counter.process_company_info()
+                counter.process_financial_info()
+
+                # Hash Table of company info and financial info
+                merged_data = {**counter.get_company_info(), **counter.get_company_financial()}
+
+                counter_data.append(merged_data)
 
         return counter_data
 
-    def get_price_data(self, filename):
-        counter_data = []
-        counter_codes = self.get_counters(filename)
-        for code in counter_codes:
-            time.sleep(1.5)
-            counter = Counter(code)
-            counter.process_price_info()
-            price_data = counter.get_price_info()
-            counter_data.append(price_data)
+    # Harvest data from a website based on data type
+    def harvest(self, sector_list, data_type):
+        counter_count = 0
 
-        return counter_data
+        for sector in sector_list:
+            if data_type == SHARE_PRICE:
+                data = self.get_all_data(sector, SHARE_PRICE)
+                counter_count += len(data)
+                Database.write_to_database("../Data/price_database.csv", data)
+
+            elif data_type == COUNTER_INFO:
+                data = self.get_all_data(sector, COUNTER_INFO)
+                counter_count += len(data)
+                Database.write_to_database("../Data/counter_database.csv", data)
+
+        print("Total counters found = {}".format(counter_count))
 
 
 if __name__ == "__main__":
     new = Main()
-    sectors = [FINANCIAL]
+    sectors = [FINANCIAL, TECHNOLOGY, TELECOM, HEALTHCARE, PLANTATION, PROPERTY, LOGISTICS, ENERGY, REALESTATE, GAS]
 
     start = time.time()
-    counter_count = 0
-    for sector in sectors:
-        data = new.get_price_data(sector)
-        counter_count += len(data)
-        Database.write_to_database("../Data/price_database.csv", data)
-
+    new.harvest(sectors, SHARE_PRICE)
     end = time.time()
+
     print("Total time taken: {}".format(end - start))
-    print("Total counters found = {}".format(counter_count))

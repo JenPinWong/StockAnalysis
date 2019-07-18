@@ -2,6 +2,10 @@ import re
 
 
 class Filter:
+    """
+    Author: Jen Pin Wong
+    A class that will filter a .txt file to have only counter codes remaining
+    """
     def __init__(self, filename):
         self.filename = filename
 

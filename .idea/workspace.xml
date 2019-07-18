@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd9ae79c-eeca-455e-879b-a8e41a615da3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source_code/UnitTest/UnitTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/Counter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/Counter_database.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/Database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/Filter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/HTTPResponse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/Main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_database.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_info/financial.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_info/healthcare.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_info/logistics.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_info/plantation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_info/property.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_info/technology.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/counter_info/telecom.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pycharm/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Counter_database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/counter_database.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/price_database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/price_database.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_code/Counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source_code/Counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_code/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source_code/Database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_code/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source_code/Filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_code/HTTPResponse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source_code/HTTPResponse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source_code/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Source_code/Main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,32 +21,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source_code/Main.py">
+        <entry file="file://$PROJECT_DIR$/Source_code/HTTPResponse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1112">
-              <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="13" column="36" selection-start-line="13" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source_code/HTTPResponse.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Source_code/Filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source_code/Filter.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source_code/Database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="336">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -64,13 +51,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source_code/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1952">
+              <caret line="127" column="37" lean-forward="true" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source_code/UnitTest/UnitTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source_code/Counter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1569">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="48">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#119#1038#0" />
+                <element signature="e#114#130#1" />
+                <element signature="e#183#376#0" />
+                <element signature="e#422#688#0" />
+                <element signature="e#723#1012#0" />
+                <element signature="e#730#910#0" />
+                <element signature="e#1052#1074#0" />
+                <element signature="e#1401#2369#0" />
+                <element signature="e#1096#1203#1" />
+                <element signature="e#1236#1383#0" />
+                <element signature="e#1428#1649#0" />
+                <element signature="e#1684#1921#0" />
+                <element signature="e#1691#1838#0" />
+                <element signature="e#1963#1987#0" />
+                <element signature="e#2459#3465#0" />
+                <element signature="e#2459#2620#1" />
+                <element signature="e#2039#2196#0" />
+                <element signature="e#2241#2476#0" />
+                <element signature="e#2511#2781#0" />
+                <element signature="e#2518#2690#0" />
+                <element signature="e#2825#2851#0" />
+                <element signature="e#3600#7265#0" />
+                <element signature="e#3600#3616#1" />
+                <element signature="e#3008#3295#0" />
+                <element signature="e#3359#3496#0" />
+                <element signature="e#3592#4347#0" />
+                <element signature="e#4395#5171#0" />
+                <element signature="e#5216#5932#0" />
+                <element signature="e#6009#6058#0" />
+                <element signature="e#6147#6200#0" />
+                <element signature="e#6243#6288#0" />
+                <element signature="e#6330#6368#0" />
+                <element signature="e#6408#6442#0" />
+                <element signature="e#6489#6531#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/price_database.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -105,9 +156,13 @@
         <option value="$PROJECT_DIR$/Pycharm/Filter.py" />
         <option value="$PROJECT_DIR$/Pycharm/Main.py" />
         <option value="$PROJECT_DIR$/source_code/Main.py" />
-        <option value="$PROJECT_DIR$/Source_code/Counter.py" />
-        <option value="$PROJECT_DIR$/Source_code/Main.py" />
+        <option value="$PROJECT_DIR$/Source_code/HTTPResponse.py" />
+        <option value="$PROJECT_DIR$/Source_code/UnitTest/HTTPResponse_test.py" />
+        <option value="$PROJECT_DIR$/Source_code/UnitTest/UnitTest.py" />
+        <option value="$PROJECT_DIR$/Source_code/Filter.py" />
         <option value="$PROJECT_DIR$/Source_code/Database.py" />
+        <option value="$PROJECT_DIR$/Source_code/Main.py" />
+        <option value="$PROJECT_DIR$/Source_code/Counter.py" />
       </list>
     </option>
   </component>
@@ -121,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,11 +199,16 @@
               <item name="StockExchange" type="462c0819:PsiDirectoryNode" />
               <item name="Source_code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StockExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StockExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="Source_code" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +229,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Main (1)">
-    <configuration name="Database" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +237,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Source_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm/Database.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Source_code/Counter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +250,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Database (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,11 +258,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Source_code" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm/Filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Source_code/Database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HTTPResponse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Source_code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Source_code/HTTPResponse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,55 +313,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in UnitTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Source_code/UnitTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm/Main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="stock" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm/Counter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Source_code/UnitTest/UnitTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main (1)" />
-        <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Database" />
-        <item itemvalue="Python.Stock" />
-        <item itemvalue="Python.Filter" />
+        <item itemvalue="Python.Counter" />
+        <item itemvalue="Python tests.Unittests in UnitTest.py" />
+        <item itemvalue="Python.Database (1)" />
+        <item itemvalue="Python.HTTPResponse" />
       </list>
     </recent_temporary>
   </component>
@@ -296,16 +350,48 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 17h 54m 24s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 17h 55m 23s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 18h 03m 06s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 18h 03m 28s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 18h 03m 37s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 18h 04m 08s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 18h 04m 16s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 18h 04m 59s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HTTPResponse_test_py - 2019.07.18 at 18h 06m 29s.xml">
+      <configuration name="Unittests in HTTPResponse_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_UnitTest_py - 2019.07.18 at 18h 11m 26s.xml">
+      <configuration name="Unittests in UnitTest.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2079566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2079566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329849" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4738676" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2078978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,90 +427,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pycharm/Counter_database.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm/Counter_database.csv" />
     <entry file="file://$PROJECT_DIR$/Pycharm/counter_database.txt" />
-    <entry file="file://$PROJECT_DIR$/Pycharm/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pycharm/HTTPResponse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pycharm/Database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pycharm/data.txt">
+    <entry file="file://$PROJECT_DIR$/Pycharm/Counter.py" />
+    <entry file="file://$PROJECT_DIR$/Pycharm/HTTPResponse.py" />
+    <entry file="file://$PROJECT_DIR$/Pycharm/Database.py" />
+    <entry file="file://$PROJECT_DIR$/Pycharm/data.txt" />
+    <entry file="file://$PROJECT_DIR$/Pycharm/Main.py" />
+    <entry file="file://$PROJECT_DIR$/Pycharm/Filter.py" />
+    <entry file="file://$PROJECT_DIR$/Source_code/UnitTest/output_files/test_database.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pycharm/Main.py">
+    <entry file="file://$PROJECT_DIR$/Source_code/test" />
+    <entry file="file://$PROJECT_DIR$/Source_code/Filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pycharm/Filter.py">
+    <entry file="file://$PROJECT_DIR$/Source_code/UnitTest/UnitTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="126">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/price_database.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source_code/HTTPResponse.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source_code/Filter.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source_code/Counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1569">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="208">
+          <caret line="13" column="36" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source_code/Database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source_code/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1112">
-          <caret line="85" column="34" lean-forward="true" selection-start-line="85" selection-start-column="34" selection-end-line="85" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1952">
+          <caret line="127" column="37" lean-forward="true" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source_code/Database.py">
+    <entry file="file://$PROJECT_DIR$/Source_code/Counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="48">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#119#1038#0" />
+            <element signature="e#114#130#1" />
+            <element signature="e#183#376#0" />
+            <element signature="e#422#688#0" />
+            <element signature="e#723#1012#0" />
+            <element signature="e#730#910#0" />
+            <element signature="e#1052#1074#0" />
+            <element signature="e#1401#2369#0" />
+            <element signature="e#1096#1203#1" />
+            <element signature="e#1236#1383#0" />
+            <element signature="e#1428#1649#0" />
+            <element signature="e#1684#1921#0" />
+            <element signature="e#1691#1838#0" />
+            <element signature="e#1963#1987#0" />
+            <element signature="e#2459#3465#0" />
+            <element signature="e#2459#2620#1" />
+            <element signature="e#2039#2196#0" />
+            <element signature="e#2241#2476#0" />
+            <element signature="e#2511#2781#0" />
+            <element signature="e#2518#2690#0" />
+            <element signature="e#2825#2851#0" />
+            <element signature="e#3600#7265#0" />
+            <element signature="e#3600#3616#1" />
+            <element signature="e#3008#3295#0" />
+            <element signature="e#3359#3496#0" />
+            <element signature="e#3592#4347#0" />
+            <element signature="e#4395#5171#0" />
+            <element signature="e#5216#5932#0" />
+            <element signature="e#6009#6058#0" />
+            <element signature="e#6147#6200#0" />
+            <element signature="e#6243#6288#0" />
+            <element signature="e#6330#6368#0" />
+            <element signature="e#6408#6442#0" />
+            <element signature="e#6489#6531#0" />
           </folding>
         </state>
       </provider>
