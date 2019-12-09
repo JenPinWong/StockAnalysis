@@ -1,4 +1,4 @@
-from Source_code.HTTPResponse import HTTPRequest
+from HTTPResponse import HTTPRequest
 
 from bs4 import BeautifulSoup
 
@@ -12,20 +12,18 @@ class Price:
     Contains: TimeStamp, Counter Code, Current Price, Today High, Today Low, Trade Volume
     """
     def __init__(self):
-        self.time = datetime.datetime.now()
+        self.time = datetime.datetime.now().date()
         self.code = ""
-        self.current_price = ""
-        self.high = ""
-        self.low = ""
+        self.close_price = ""
+        self.open_price = ""
         self.volume = ""
         self.price_dict = dict()
 
     # Extract data from the dictionary
     def set_attribute(self, attr):
         self.code = attr.get("Code")
-        self.current_price = attr.get("Price")
-        self.high = attr.get("High")
-        self.low = attr.get("Low")
+        self.close_price = attr.get("Close_price")
+        self.open_price = attr.get("Open_price")
         self.volume = attr.get("Volume")
 
         # Adds timestamp to the dictionary
@@ -34,13 +32,12 @@ class Price:
 
 
     def __repr__(self):
-        return "Code   : {}\n" \
-               "Price  : {}\n" \
-               "High   : {}\n" \
-               "Low    : {}\n" \
-               "Volume : {}\n" \
-               "Time   : {}\n" \
-                .format(self.code, self.current_price, self.high, self.low, self.volume, self.time)
+        return "Code        : {}\n" \
+               "Open Price  : {}\n" \
+               "Close Price : {}\n" \
+               "Volume      : {}\n" \
+               "Time        : {}\n" \
+                .format(self.code, self.open_price, self.close_price, self.volume, self.time)
 
     # Returns price dictionary (To be stored in database)
     def get_price_info(self):
@@ -143,21 +140,24 @@ class Counter:
         response = http_request.get_response()
         return response
 
+    def counter_exist(self):
+        return "Error 404: Page Not Found" not in self.page_content.find(id="Head1").text
+
     # Extracts information of a company from a page
     def process_company_info(self):
         company_info = dict()
 
         company_name = self.page_content.find(id="ctl13_lbCorporateName").text
-        company_info.update({"Name": company_name[2:].upper()})
+        company_info["Name"] = company_name[2:].upper()
 
         company_sector = self.page_content.find(id="ctl13_lbSector").text
-        company_info.update({"Sector": company_sector[2:].upper()})
+        company_info["Sector"] = company_sector[2:].upper()
 
         counter_code = self.page_content.find(id="ctl13_lbSymbolCode").text
-        company_info.update({"Code": counter_code[2:].upper()})
+        company_info["Code"] = counter_code[2:].upper()
 
         market = self.page_content.find(id="ctl13_lbMarket").text
-        company_info.update({"Market": market[2:].upper()})
+        company_info["Market"] = market[2:].upper()
 
         company_info.update({"Number": self.counter_number})
 
@@ -168,19 +168,19 @@ class Counter:
         financial_info = dict()
 
         market_cap = self.page_content.find(id="MainContent_lbFinancialInfo_Capital").text
-        financial_info.update({"Mktcap": market_cap[2:]})
+        financial_info["Mktcap"] = market_cap[2:]
 
         share_count = self.page_content.find(id="MainContent_lbNumberOfShare").text
-        financial_info.update({"Share_count": share_count[2:]})
+        financial_info["Share_count"] = share_count[2:]
 
         eps = self.page_content.find(id="MainContent_lbFinancialInfo_EPS").text
-        financial_info.update({"EPS": eps[2:]})
+        financial_info["EPS"] = eps[2:]
 
         pe_ratio = self.page_content.find(id="MainContent_lbFinancialInfo_PE").text
-        financial_info.update({"PERatio": pe_ratio[2:]})
+        financial_info["PERatio"] = pe_ratio[2:]
 
         roe = self.page_content.find(id="MainContent_lbFinancialInfo_ROE").text
-        financial_info.update({"ROE": roe[2:]})
+        financial_info["ROE"] = roe[2:]
 
         self.financial.set_attribute(financial_info)
 
@@ -189,20 +189,16 @@ class Counter:
         price_info = dict()
 
         company_name = self.page_content.find(id="ctl13_lbSymbolCode").text
-        price_info.update({"Code": company_name[2:].upper()})
+        price_info["Code"] = company_name[2:].upper()
 
-        price = self.page_content.find(id="MainContent_lbQuoteLast").text
-        price_info.update({"Price": price})
+        opening_price = self.page_content.find(id="MainContent_lbQuoteOpen").text
+        price_info["Open_price"] = opening_price
 
-        day_range = self.page_content.find(id="MainContent_lbDayRange").text.split("-")
-        high = day_range[0]
-        price_info.update({"High": high})
-
-        low = day_range[1].replace(" ", "")
-        price_info.update({"Low": low})
+        closing_price = self.page_content.find(id="MainContent_lbQuoteLast").text
+        price_info["Close_price"] = closing_price
 
         volume = self.page_content.find(id="MainContent_lbQouteVol").text.replace(",", "")
-        price_info.update({"Volume": int(volume)/10000})
+        price_info["Volume"] = int(volume)/10000
 
         self.price.set_attribute(price_info)
 
@@ -232,3 +228,6 @@ class Counter:
     # Return company financial dictionary
     def get_company_financial(self):
         return self.financial.get_financial_info()
+
+
+

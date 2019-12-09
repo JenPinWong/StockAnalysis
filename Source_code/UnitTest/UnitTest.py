@@ -1,6 +1,6 @@
-from Source_code.HTTPResponse import HTTPRequest
-from Source_code.Counter import Counter
-from Source_code.Database import Database
+from HTTPResponse import HTTPRequest
+from Counter import Counter
+from Database import Database
 
 import unittest
 import os

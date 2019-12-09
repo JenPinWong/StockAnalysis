@@ -1,6 +1,6 @@
-from Source_code.Counter import Counter
-from Source_code.Filter import Filter
-from Source_code.Database import Database
+from Counter import Counter
+from Filter import Filter
+from Database import Database
 
 import time
 
@@ -19,7 +19,7 @@ GAS = "../Counter_info/gas.txt"
 # Constants
 SHARE_PRICE = "share_price"
 COUNTER_INFO = "counter_info"
-REQUEST_INTERVAL = 1
+REQUEST_INTERVAL = 0
 
 
 class Main:
@@ -72,11 +72,15 @@ class Main:
         counter_data = []
 
         for code in counter_codes:
-            # Load each counter with 1.5 second to not overload web server
+            # Load each counter with x seconds to not overload web server
             time.sleep(REQUEST_INTERVAL)
 
             # Initialize counter
             counter = Counter(code)
+
+            # Checks if the counter still exists
+            if not counter.counter_exist():
+                continue
 
             # Harvest Counter share price if data requested == share price
             if data_type == SHARE_PRICE:
@@ -109,7 +113,7 @@ class Main:
             if data_type == SHARE_PRICE:
                 data = self.get_all_data(sector, SHARE_PRICE)
                 counter_count += len(data)
-                Database.write_to_database("../Data/price_database.csv", data)
+                Database.write_to_database("../Data/{}_price_database.csv".format(sector.split('/')[-1][:-4]), data)
 
             elif data_type == COUNTER_INFO:
                 data = self.get_all_data(sector, COUNTER_INFO)
@@ -120,11 +124,11 @@ class Main:
 
 
 if __name__ == "__main__":
-    new = Main()
-    sectors = [FINANCIAL, TECHNOLOGY, TELECOM, HEALTHCARE, PLANTATION, PROPERTY, LOGISTICS, ENERGY, REALESTATE, GAS]
+    market = Main()
+    sectors = [TECHNOLOGY, FINANCIAL, TELECOM, HEALTHCARE, PLANTATION, PROPERTY, LOGISTICS, ENERGY, REALESTATE, GAS]
 
     start = time.time()
-    new.harvest(sectors, SHARE_PRICE)
+    market.harvest(sectors, SHARE_PRICE)
     end = time.time()
 
     print("Total time taken: {}".format(end - start))

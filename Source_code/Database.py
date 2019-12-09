@@ -14,6 +14,9 @@ class Database:
                     counter_database_writer.writeheader()
                     counter_database_writer.writerows(data)
                 else:
+                    # Writes an empty dict to ensure new data follows below old data
+                    blank_dict = dict()
+                    counter_database_writer.writerow(blank_dict)
                     counter_database_writer.writerows(data)
 
                 csv_file.close()
